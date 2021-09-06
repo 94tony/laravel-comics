@@ -1,0 +1,32 @@
+.nav-footer{
+    background-image: url("/images/footer-bg.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    .container{
+        padding: 40px;
+        display: flex;
+        .img-footer{
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+        }
+        .menu-footer{
+            ul{
+                list-style: none;
+                li{
+                    padding: 3px 0px ;
+                    &:first-child{
+                        font-size: 18px;
+                        color: white;
+                        margin: 15px 0px;
+                    }
+                }
+            }
+        }
+        
+    }
+
+}
